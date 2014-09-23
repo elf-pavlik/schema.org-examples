@@ -1,0 +1,16 @@
+{
+  "@context": [
+    "http://schema.org",
+    {
+      "tmp": "http://example.com/vocab#"
+    }
+  ],
+  "@id": "https://github.com/elf-pavlik/socialwg-examples/issues/1",
+  "@type": "tmp:Issue",
+  "name": "closing an Issue - potential action and past activity example",
+  "potentialAction": {
+    "@type": "tmp:CloseAction",
+    "actionStatus": "PotentialActionStatus",
+    "target": "https://github.com/elf-pavlik/socialwg-examples/issues/1/close"
+  }
+}

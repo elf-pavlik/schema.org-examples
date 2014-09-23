@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "http://schema.org",
+    {
+      "tmp": "http://example.com/vocab#"
+    }
+  ],
+  "@id": "https://github.com/evanp?tab=activity&id=123",
+  "@type": "tmp:CloseAction",
+  "actionStatus": "CompletedActionStatus",
+  "agent": {
+    "@id": "https://github.com/evanp",
+    "@type": "Person",
+    "name": "Evan P"
+  },
+  "object": {
+    "@id": "https://github.com/elf-pavlik/socialwg-examples/issues/1",
+    "@type": "tmp:Issue",
+    "name": "closing an Issue - potential action and past activity example"
+  },
+  "endTime": "2014-09-23T10:32:15+01:00"
+}
